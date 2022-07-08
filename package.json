@@ -1,0 +1,17 @@
+{
+	"name": "marje-proovitoo",
+	"version": "1.0.0",
+	"description": "Marje esimene proovitöö töökohale taotlemisel",
+	"source": "src/index.html",
+	"browserslist": "> 0.5%, last 2 versions, not dead",
+	"scripts": {
+		"start": "parcel",
+		"build": "parcel build"
+	},
+	"author": "Marje Mee",
+	"license": "ISC",
+	"devDependencies": {
+		"@parcel/transformer-sass": "^2.6.2",
+		"parcel": "^2.6.2"
+	}
+}
