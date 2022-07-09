@@ -7,12 +7,23 @@ Hall taustavärv: #f5f4fb
 Font size 16, line-height 1.8
 H2 50px, 700
 
-### nav riba
+# nav riba
 
 Logo / Home/About/Chapter/My Books Author Contact
 
-### hero
+## Sections
 
-### firmade logod
+- Navigation
+- Hero
+- Featured in
+- Features
+- stats
+- How it works
+- CTA
+- Inside The Book
+- Services
+- Gallery
+- Contacts
+- Footer
 
-### About
+<!-- ### About The Book -->
