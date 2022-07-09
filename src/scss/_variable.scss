@@ -51,16 +51,27 @@ body {
   margin-right: 1.6rem !important;
 }
 
-// .test {
-//   /* 1140px */
-//   background-color: red;
-//   max-width: 120rem;
-//   padding: 0 3.2rem;
-//   margin: 0 auto;
-// }
-// .container {
-//   /* 1140px */
-//   max-width: 120rem;
-//   padding: 0 3.2rem;
-//   margin: 0 auto;
-// }
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+
+  align-items: center;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
