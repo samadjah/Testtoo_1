@@ -1,7 +1,64 @@
-html {
-  font-size: 62.5%;
+/* 
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+- Line heights
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.8
+
+
+- Font weights
+Default: 400
+Medium:000
+Semi-bold: 700
+Bold: 900
+
+*/
+
+// h1 {
+//   color: #17b978;
+//   font-family: cursive;
+// }
+
+.heading-primary {
+  font-family: "Raleway";
+  font-size: 5.2rem;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 1.05;
+  color: #6a7695;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
 }
-h1 {
+.heading-secondary {
+  font-family: "Raleway";
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
   color: #17b978;
-  font-family: cursive;
+  letter-spacing: -0.5px;
+}
+
+.hero-description {
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  line-height: 1.8;
+  color: #6a7695;
+  margin-bottom: 4.8rem;
+}
+
+.description-over {
+  font-family: "Raleway";
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #17b978;
+  margin-bottom: 1.8rem;
 }

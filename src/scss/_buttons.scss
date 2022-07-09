@@ -1,0 +1,25 @@
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 1.6rem 3.2rem;
+  border-radius: 50px;
+
+  transition: background-color 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #17b978;
+  color: #fff;
+}
+.btn--full:hover,
+.btn--full:active {
+  background-color: #148256;
+  color: #fff;
+}

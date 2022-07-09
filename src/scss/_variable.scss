@@ -1,3 +1,66 @@
+/* 
+--- 02 COLORS
+
+- Primary: #17b978
+- Tints:
+- Shades: #148256
+- Accents: 
+- Greys:
+#555
+#6a7695
+#f5f4fb
+
+
+--- 05 SHADOWS
+
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+--- 06 BORDER-RADIUS
+
+Default: 9px
+Medium: 11px
+
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px / 16px = 62.5%; Percentage of user's browsers font-size setting */
+  font-size: 62.5%;
+}
+
 body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
   background-color: #f5f4fb;
 }
+
+/*Helperclass*/
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+// .test {
+//   /* 1140px */
+//   background-color: red;
+//   max-width: 120rem;
+//   padding: 0 3.2rem;
+//   margin: 0 auto;
+// }
+// .container {
+//   /* 1140px */
+//   max-width: 120rem;
+//   padding: 0 3.2rem;
+//   margin: 0 auto;
+// }
