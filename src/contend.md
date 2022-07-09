@@ -44,8 +44,7 @@ Know more About The Autor
 - Navigation 6 + logo
 - Hero
   pilt nupp tekst
-- Featured in
-  4 logo
+- Featured in 4 logo
 - Features
 - stats
   4 plokk
