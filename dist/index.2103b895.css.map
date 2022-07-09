@@ -1,1 +1,0 @@
-{"mappings":"ACAA;;;;AAGA;;;;;ACHA","sources":["src/main.scss","src/scss/_typography.scss","src/scss/_variable.scss"],"sourcesContent":["// @import \"./scss/fonts\";\r\n@import \"./scss/typography\";\r\n@import \"./scss/buttons\";\r\n@import \"./scss/variable\";\r\n",null,null],"names":[],"version":3,"file":"index.2103b895.css.map","sourceRoot":"/__parcel_source_root/"}
