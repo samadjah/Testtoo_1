@@ -41,8 +41,7 @@ Know more About The Autor
 
 ### Additional links
 
-- Navigation
-  6 pluss logo
+- Navigation 6 + logo
 - Hero
   pilt nupp tekst
 - Featured in
