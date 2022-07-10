@@ -10,11 +10,31 @@
 
   background-image: linear-gradient(90deg, #6a7695, #fff);
   overflow: hidden;
-  height: 100rem;
+  height: 90rem;
 }
 
 .author-img-box {
   background-image: url("./img/xabout.jpg.pagespeed.ic.-j2kfNwXDg.webp");
   background-size: cover;
   background-position: center;
+}
+
+.author-text-box {
+  padding: 9.6rem 6.4rem;
+  color: #6a7695;
+}
+
+.author_text {
+  padding-top: 5.4rem;
+  text-decoration: none;
+}
+.author-link:link,
+.author-link:visited {
+  text-decoration: none;
+}
+.author-bio {
+  line-height: 4.8rem;
+}
+.author-bio span {
+  font-weight: 900;
 }
