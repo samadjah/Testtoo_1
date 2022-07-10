@@ -1,0 +1,46 @@
+.section-insidebook {
+  //   padding: 9.6rem;
+}
+
+.list-nav-list {
+  list-style: none;
+  display: grid;
+  //   align-items: center;
+  //   justify-items: flex-start;
+  gap: 2rem;
+}
+
+.list-nav-link:link,
+.list-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #6a7695;
+  font-weight: 900;
+  font-family: "Raleway";
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.list-nav-link:hover,
+.list-nav-link:active {
+  color: #17b978;
+}
+
+.list-nav-link.nav-cta:link,
+.list-nav-link.nav-cat:visited {
+  padding: 1.2rem 2.4rem;
+  color: #fff;
+  border-radius: 50px;
+  background-color: #17b978;
+}
+
+.list-nav-link.nav-cta:hover,
+.list-nav-link.nav-cat:active {
+  background-color: #148256;
+  color: #fff;
+}
+
+.list-inside {
+  background-color: #e6e5e5;
+  padding: 2.4rem;
+}
