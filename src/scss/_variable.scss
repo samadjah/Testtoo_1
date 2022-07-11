@@ -71,7 +71,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
 }
 .grid--2-cols-f {
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 4fr;
 }
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
@@ -87,3 +87,20 @@ body {
   background: #17b978;
   margin: 15px auto;
 }
+
+/*
+Sisu osa on 1200px lai
+⛵🌏
+kastide osa on 900px lai, sisukorra osa 300px
+⛵🌏
+Reigo Tuulik
+Ikoonideks on kasutusel flaticon 
+Services osa ikoonideks on flaticon-user-experience, flaticon-network, flaticon-innovation
+⛵🌏 vastas sulle
+30px lai ja 1 px kõrge joon visuaalseks eraldamiseks
+⛵🌏
+Hall kasti taust on #f5f4fb
+⛵🌏
+Reigo Tuulik
+Raamatukaante suurus on 255x330px
+*/
