@@ -3,6 +3,7 @@
   width: 350px;
   height: 350px;
   padding: 5rem;
+  column-gap: 20px;
 }
 
 .feature-icon {
@@ -22,3 +23,8 @@
   font-size: 1.8rem;
   line-height: 1.8;
 }
+
+.fi {
+  width: 40px;
+
+  //   fill: #94d31b;
