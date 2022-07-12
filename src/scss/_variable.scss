@@ -44,7 +44,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
-  background-color: #f5f4fb;
+  // background-color: #f5f4fb;
 }
 
 /*Helperclass*/
@@ -61,7 +61,7 @@ body {
 
 .grid {
   display: grid;
-  column-gap: 6.4rem;
+  column-gap: 2.4rem;
   row-gap: 9.6rem;
 
   align-items: center;
@@ -82,25 +82,13 @@ body {
 
 .deco-border {
   display: block;
-  width: 40px;
-  height: 2px;
+  width: 30px;
+  height: 1px;
   background: #17b978;
-  margin: 15px auto;
+  margin: 15px auto 30px;
 }
 
-/*
-Sisu osa on 1200px lai
-⛵🌏
-kastide osa on 900px lai, sisukorra osa 300px
-⛵🌏
-Reigo Tuulik
-Ikoonideks on kasutusel flaticon 
-Services osa ikoonideks on flaticon-user-experience, flaticon-network, flaticon-innovation
-⛵🌏 vastas sulle
-30px lai ja 1 px kõrge joon visuaalseks eraldamiseks
-⛵🌏
-Hall kasti taust on #f5f4fb
-⛵🌏
-Reigo Tuulik
-Raamatukaante suurus on 255x330px
-*/
+// *:focus {
+//   outline: none;
+//   box-shadow: 0 0 0 0.8rem hsla(156, 78%, 41%, 0.25);
+// }

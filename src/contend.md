@@ -10,6 +10,34 @@ H2 50px, 700
 kastide osa on 900px lai, sisukorra osa 300px
 Services osa ikoonideks on flaticon-user-experience, flaticon-network, flaticon-innovation
 
+/\*
+ei sa aikooni tha anii kirjutada ringi nagu tahtisn läheb halli kasti tah apeitu, mõtle edasi kuida skasutada ja lihtsalt lisa hetkel suvaline ring taha
+
+.contact-img-box {
+position: relative;
+background-color: #f5f4fb;
+padding: 9.6rem 4.6rem;
+column-gap: 10px;
+// margin-bottom: 9.6rem;
+}
+
+// Äteeme pseudoelemendi ringi jaoks
+.contact-img-box::before {
+content: ""; /_give content whatever for appearance_/
+display: block; /_ display for give a shape_/
+width: 60%;
+/_60% of parent width_/
+padding-bottom: 60%; /_ padding trikk height: 60%, too tagasi alla _/
+position: absolute;
+transform: translatey(-50%);
+border-radius: 50%;
+background-color: #17b978;
+
+z-index: -1;
+}
+
+\*/
+
 # nav riba
 
 Logo / Home/About/Chapter/My Books Author Contact
@@ -45,6 +73,7 @@ Know more About The Autor
 ### Additional links
 
 - Navigation 6 + logo
+  laenatud juurde stiki nav.js
 - Hero
   pilt nupp tekst
 - Featured in 4 logo
