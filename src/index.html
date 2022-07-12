@@ -15,27 +15,24 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap"
       rel="stylesheet"
-    />
-    
+    /> 
 
     <script type="module" src="app.js"></script>
   </head>
   <body>
-    <header class="header">
-      <img
-        class="logo"
-        alt="Author logo"
-        src="img/logos/xpartner-1.png.pagespeed.ic.b7FlbbQVdf.webp"
-      />
-      >
+    <header class="header" id="home">
+      <div class="logo">
+       <p>Author<span>.</span></p>   
+      </div>
+
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">Home</a></li>
-          <li><a class="main-nav-link" href="#">About</a></li>
-          <li><a class="main-nav-link" href="#">Chapter</a></li>
-          <li><a class="main-nav-link" href="#">My Books</a></li>
-          <li><a class="main-nav-link" href="#">Author</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Contact</a></li>
+          <li><a class="main-nav-link" href="#home">Home</a></li>
+          <li><a class="main-nav-link" href="#about">About</a></li>
+          <li><a class="main-nav-link" href="#chapter">Chapter</a></li>
+          <li><a class="main-nav-link" href="#my-books">My Books</a></li>
+          <li><a class="main-nav-link" href="#author">Author</a></li>
+          <li><a class="main-nav-link nav-cta" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -92,59 +89,47 @@
         <!-- </div> -->
       </section>
       <!--  -->
-      <section class="section_about">
+      <section class="section-about" id="about">
 
         <div class="container">
-          <div class="author">
+          <div class="about">
             <div class="book-img-box"></div>
-            <div class="author-text-box">
-              <h2 class="heading-secondary">About The book</h2>
-              <p class="author_text hero-description"> A small river Duden flows by their place and suplies it with the necessary regalialia</p>
-              <p class="author_text hero-description"> A small river Duden flows by their place and suplies it with the necessary regalialia</p>
-              <p class="author_text hero-description"> A small river Duden flows by their place and suplies it with the necessary regalialia</p>
-              <p class="author_text hero-description"> A small river Duden flows by their place and suplies it with the necessary regalialia</p>
-              <div class="author-bio hero-description">
-
-
-              </div>
-
-
+            <div class="about-text-box">
+              <h2 class="heading-thirdary">About The book</h2>
+              <p class="about-description"> A small river  lkl lköls ökölsdf  aökölkölk ffkvv  Duden flows by their place and suplies it with the necessary regalialia</p>
+              <h4 class="smaller-title">Award achivements</h4>
+              <p class=" about-description"> A small river Duden flows by their mall river Dud place and suplies it with the mall river Dud necessary regalialiamall river Dud</p>
+              <h4 class="">Read On Any Devices</h4>
+              <p class=" about-description"> A small river Duden flows by their place and suplies it with the necessary regalialia</p>
+              <h4 class="">Very High Resolution</h4>
+              <p class="about-description"> A small river Duden flows by their place and suplies it with the necessary regalialia</p>
             </div>
           </div>
         </div>
-        <div class="container grid grid--4-cols">
+        <div class="container grid grid--4-cols center-text">
           <div class="feature">
-            <ion-icon class="feature-icon" name="git-merge-outline"></ion-icon>            
-            <!-- <ion-icon class="feature-icon" name="bulb-outline"></ion-icon> -->
-            <p class="feature-title">Experience</p>
+            <p class="feature-title">1,100</p>
             <p class="feature-text">
-              kdjfldjfd fldkf jdfjdklfd jlkfdjfd f jlkdsf jkjkfjklsdjfdf jlkjlkj
-              sjk ience
+              Copies Sold
             </p>
           </div>
           <div class="feature">
-            <ion-icon class="feature-icon" name="git-merge-outline"></ion-icon>
-            <p class="feature-title">Marketing Goals</p>
+            <p class="feature-title">1.200</p>
             <p class="feature-text">
-              kdjfldjfd fldkf jdfjdklfd jlkfdjfd f jlkdsf jkjkfjklsdjfdf jlkjlkj
-              sjk ience
+              Copies Realised
             </p>
           </div>
           <div class="feature">
-            <ion-icon class="feature-icon" name="compass-outline"></ion-icon>
-            <p class="feature-title">Targeting Visons</p>
+            <p class="feature-title">340</p>
             
             <p class="feature-text">
-              kdjfldjfd fldkf jdfjdklfd jlkfdjfd f jlkdsf jkjkfjklsdjfdf jlkjlkj
-              sjk ience
+              Cup Of Coffee
             </p>
           </div>
           <div class="feature">
-            <ion-icon class="feature-icon" name="compass-outline"></ion-icon>
-            <p class="feature-title">Targeting Visons</p>
+            <p class="feature-title">12,000</p>
             <p class="feature-text">
-              kdjfldjfd fldkf jdfjdklfd jlkfdjfd f jlkdsf jkjkfjklsdjfdf jlkjlkj
-              sjk ience
+              Happy Readers
             </p>
           </div>
       </section>
@@ -152,7 +137,7 @@
 
 
       <!--  -->
-      <section class="section-chapter">
+      <section class="section-chapter" id="chapter">
         <div class="container">
           <div class="container center-text">
           <h2 class="heading-secondary">What's Inside The Book</h2>
@@ -175,47 +160,47 @@
         
           <div class="list-inside" id="title-page">
             <h3 class="heading-thirdary">Title page</h3>
-            <a class="list-nav-link" href="#list-nav-list"><p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident optio placeat. Facilis temporibus vitae aliquid tempora assumenda blanditiis quos, beatae eaque. Consectetur odio ducimus suscipit impedit?</p></a>
+            <a class="list-nav-link" href="#chapter"><p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisLorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident oicing elit. Nostrum impedit magnam laudantium provident optio placeat. Facilis temporibus vitae aliquid tempora assumenda blanditiis quos, beatae eaque. Consectetur odio ducimus suscipit impedit?</p></a>
           </div>
           <div></div>
           <div class="list-inside" id="copiright">
             <h3 class="heading-thirdary">Copiright</h3>
-            <a class="list-nav-link" href="#list-nav-list"><p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident optio placeat. Facilis temporibus vitae aliquid tempora assumenda blanditiis quos, beatae eaque. Consectetur odio ducimus suscipit impedit?</p></a>
+            <a class="list-nav-link" href="#chapter"><p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident optio placeat. Facilis temporibus vitae aliquid temporLorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident oa assumenda blanditiis quos, beatae eaque. Consectetur odio ducimus suscipit impedit?</p></a>
           </div>
           <div></div>
           <div class="list-inside" id="table-of-content">
             <h3 class="heading-thirdary">Table of content</h3>
-            <a class="list-nav-link" href="#list-nav-list"><p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident optio placeat. Facilis temporibus vitae aliquid tempora assumenda blanditiis quos, beatae eaque. Consectetur odio ducimus suscipit impedit?</p></a>
+            <a class="list-nav-link" href="#chapter"><p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident o optio placeat. Facilis temporibus vitae aliquid tempora assumenda blanditiis quos, beatae eaque. Consectetur odio ducimus suscipit impedit?</p></a>
           </div>
           <div></div>
           <div class="list-inside" id="dedication">
             <h3 class="heading-thirdary">Dedication</h3>
-            <a class="list-nav-link" href="#list-nav-list"><p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident optio placeat. Facilis temporibus vitae aliquid tempora assumenda blanditiis quos, beatae eaque. Consectetur odio ducimus suscipit impedit?</p></a>
+            <a class="list-nav-link" href="#chapter"><p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident optio placeat. Facilis temporibus vitae aliquid tempora assumenda blanditiis quos, Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident obeatae eaque. Consectetur odio ducimus suscipit impedit?</p></a>
           </div>
           <div></div>
           <div class="list-inside" id="foreford">
             <h3 class="heading-thirdary">Foreford</h3>
-            <a class="list-nav-link" href="#list-nav-list"><p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident optio placeat. Facilis temporibus vitae aliquid tempora assumenda blanditiis quos, beatae eaque. Consectetur odio ducimus suscipit impedit?</p></a>
+            <a class="list-nav-link" href="#chapter"><p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident optio placeat. Facilis temporibus vitae aliquidLorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident o tempora assumenda blanditiis quos, beatae eaque. Consectetur odio ducimus suscipit impedit?</p></a>
           </div>
           <div></div>
           <div class="list-inside" id="prologue">
             <h3 class="heading-thirdary">Prologue</h3>
-            <a class="list-nav-link" href="#list-nav-list"><p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident optio placeat. Facilis temporibus vitae aliquid tempora assumenda blanditiis quos, beatae eaque. Consectetur odio ducimus suscipit impedit?</p></a>
+            <a class="list-nav-link" href="#chapter"><p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium providLorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident oent optio placeat. Facilis temporibus vitae aliquid tempora assumenda blanditiis quos, beatae eaque. Consectetur odio ducimus suscipit impedit?</p></a>
           </div>
           <div></div>
           <div class="list-inside" id="epilogue">
             <h3 class="heading-thirdary">Epilogue</h3>
-            <a class="list-nav-link" href="#list-nav-list"><p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident optio placeat. Facilis temporibus vitae aliquid tempora assumenda blanditiis quos, beatae eaque. Consectetur odio ducimus suscipit impedit?</p></a>
+            <a class="list-nav-link" href="#chapter"><p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident optio placeat. Facilis temporibus vitae aliquid tempora assumenda blanditiis quos, beatae eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident oConsectetur odio ducimus suscipit impedit?</p></a>
           </div>
           <div></div>
           <div class="list-inside" id="epigraph">
             <h3 class="heading-thirdary">Epigraph</h3>
-            <a class="list-nav-link" href="#list-nav-list"><p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident optio placeat. Facilis temporibus vitae aliquid tempora assumenda blanditiis quos, beatae eaque. Consectetur odio ducimus suscipit impedit?</p></a>
+            <a class="list-nav-link" href="#chapter"><p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident optio placeat. Facilis temporibus vitae aliquid tempora assumenda blanditiis quos, beatae eaque. Consectetur odLorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit magnam laudantium provident oio ducimus suscipit impedit?</p></a>
           </div>
         </div>
       </section>
       
-      <section class="center-text">
+      <section class="services center-text" id="services">
         
         <span class="description-over">Services</span>
         <h2 class="heading-secondary">
@@ -223,8 +208,9 @@
         </h2>
         <div class="container grid grid--3-cols">
           <div class="feature">
-            <ion-icon class="feature-icon" name="git-merge-outline"></ion-icon>            
-            <!-- <ion-icon class="feature-icon" name="bulb-outline"></ion-icon> -->
+            <img class="feature-icon"
+          src="../src/img/icons/user-experience.png"
+          />
             <p class="feature-title">Experience</p>
             <div class="deco-border"></div>
             <p class="feature-text">
@@ -233,7 +219,9 @@
             </p>
           </div>
           <div class="feature">
-            <ion-icon class="feature-icon" name="git-merge-outline"></ion-icon>
+            <img class="feature-icon"
+            src="../src/img/icons/network.png"
+            />
             <p class="feature-title">Marketing Goals</p>
             <div class="deco-border"></div>
             <p class="feature-text">
@@ -242,7 +230,9 @@
             </p>
           </div>
           <div class="feature">
-            <ion-icon class="feature-icon" name="compass-outline"></ion-icon>
+            <img class="feature-icon"
+            src="../src/img/icons/innovation.png"
+            />
             <p class="feature-title">Targeting Visons</p>
             <div class="deco-border"></div>
             <p class="feature-text">
@@ -253,7 +243,7 @@
           </div>
       </section>
 
-    </section class="">
+    <section class="section-gallery" id="my-books">
     <div class="container center-text">
       <span class="description-over">Projects</span>
       <h2 class="heading-secondary">
@@ -306,7 +296,8 @@
           </figure>
         </div>
       </div>
-      <section class="section_author">
+    </section>
+      <section class="section_author" id="author">
 
         <div class="container">
           <div class="author">
@@ -344,7 +335,7 @@
           </div>
         </div>
       </section>
-      <section >
+      <section class="section-contact" id="contact" >
         <div class="container">
         <div class=" center-text">
           <h2 class="heading-secondary">
@@ -354,42 +345,46 @@
 
         </div>
         <div class=" grid grid--4-cols">
-          <div class=" feature">
-            <!-- <div class="center-text ">
-              <img
-                src="../src/img/icons/man-head.svg"
-                class="fi"
-                alt="small icon between texts"
-              />
-            </div>             -->
-            <p class="feature-title">Experience</p>
-            <p class="feature-text">
-              kdjfldjfd fldkf jdfjdklfd jlkfdjfd f jlkdsf jkjkfjklsdjfdf jlkjlkj
-              sjk ience
+          <div class=" contact-img-box center-text">
+            <img class="contact-icon"
+              src="../src/img/icons/pin.png"
+              class="hero-img"
+              alt="Map pin on green circle"
+            />
+            <p class="contact-title">Address</p>
+            <p class="contact-text">
+              198 West 21th Street, Suite 721 New Yourk NY 10016</p>
+          </div>
+          <div class="contact-img-box center-text">
+            <img class="contact-icon"
+              src="../src/img/icons/phone-call.png"
+              class="hero-img"
+              alt="Phone handle on green circle"
+            />
+            <p class="contact-title">Contact Number</p>
+            <p class="contact-text">
+              + 12 3523 5598</p>
+          </div>
+          <div class="contact-img-box center-text">
+            <img class="contact-icon"
+              src="../src/img/icons/paper-plane.png"
+              class="hero-img"
+              alt="Plane on green circle"
+            />
+            <p class="contact-title">Email Address</p>
+            <p class="contact-text">
+              info@yoursite.com
             </p>
           </div>
-          <div class="feature">
-            <ion-icon class="feature-icon" name="git-merge-outline"></ion-icon>
-            <p class="feature-title">Marketing Goals</p>
-            <p class="feature-text">
-              kdjfldjfd fldkf jdfjdklfd jlkfdjfd f jlkdsf jkjkfjklsdjfdf jlkjlkj
-              sjk ience
-            </p>
-          </div>
-          <div class="feature">
-            <ion-icon class="feature-icon" name="compass-outline"></ion-icon>
-            <p class="feature-title">Targeting Visons</p>
-            <p class="feature-text">
-              kdjfldjfd fldkf jdfjdklfd jlkfdjfd f jlkdsf jkjkfjklsdjfdf jlkjlkj
-              sjk ience
-            </p>
-          </div>
-          <div class="feature">
-            <ion-icon class="feature-icon" name="compass-outline"></ion-icon>
-            <p class="feature-title">Targeting Visons</p>
-            <p class="feature-text">
-              kdjfldjfd fldkf jdfjdklfd jlkfdjfd f jlkdsf jkjkfjklsdjfdf jlkjlkj
-              sjk ience
+          <div class="contact-img-box center-text">
+            <img class="contact-icon"
+            src="../src/img/icons/earth-globe.png"
+            class="hero-img"
+            alt="Globe on green circle"
+            />
+            <p class="contact-title">Website</p>
+            <p class="contact-text">
+              yoursite.com
             </p>
           </div>
         </div>
