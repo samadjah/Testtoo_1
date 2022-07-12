@@ -34,8 +34,18 @@
 }
 
 .content {
-  color: #6a7695;
+  color: #f5f4fb;
   font-weight: 600;
+}
+.content p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 5rem;
+}
+.content span {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 2rem;
 }
 
 .img-wrapper {
@@ -53,12 +63,12 @@
 .img-wrapper > .content {
   position: absolute;
   inset: 0;
-  font-size: 2rem;
-  padding: 1rem;
-  background: rgba(245, 244, 251, 0.648);
+  font-size: 2.4rem;
+  padding: 3rem;
+  background: rgba(45, 45, 45, 0.74);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: end;
 }
 
 .img-wrapper > img,
@@ -67,7 +77,7 @@
 }
 
 .img-wrapper:hover > img.blur {
-  filter: blur(15px);
+  filter: blur(1px);
 }
 
 .img-wrapper > .content {
