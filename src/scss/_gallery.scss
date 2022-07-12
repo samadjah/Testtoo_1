@@ -32,3 +32,48 @@
 .gallery-img {
   width: 9.4rem;
 }
+
+.content {
+  color: #6a7695;
+  font-weight: 600;
+}
+
+.img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.img-wrapper > img {
+  display: block;
+  width: 100%;
+  // aspect-ratio: 1/1;
+  // object-fit: cover;
+  // object-position: center;
+}
+.img-wrapper > .content {
+  position: absolute;
+  inset: 0;
+  font-size: 2rem;
+  padding: 1rem;
+  background: rgba(245, 244, 251, 0.648);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-wrapper > img,
+.img-wrapper > .content {
+  transition: 200ms ease-in-out;
+}
+
+.img-wrapper:hover > img.blur {
+  filter: blur(15px);
+}
+
+.img-wrapper > .content {
+  opacity: 0;
+}
+
+.img-wrapper:hover > .content.fade {
+  opacity: 1;
+}
