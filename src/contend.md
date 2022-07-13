@@ -1,4 +1,6 @@
 text color: color: #6a7695;
+pipetiga võtab #405170
+#293b5f #293b5f
 Sisu font: Open Sans 16px
 Pealkirjade font: Raleway
 Roheline värv: #17b978
@@ -35,8 +37,28 @@ background-color: #17b978;
 
 z-index: -1;
 }
-
 \*/
+
+# Kasuta tulevikus lorem häkke näited allpool:
+
+dl>(dt>{item #$}^dd>lorem)
+.module\*3>(h3>lorem5^p>lorem20)
+
+//terve lk tegemine
+header.main-header>h1>lorem3^^.page-wrap>
+(main>article*3>h2>lorem10^p*3>lorem)+
+(aside>.module\*3>h3>lorem4^lorem15)
+
+# nuppude puhul fookus alamale
+
+.dropdown {
+opacity: 0;
+visibility: hidden;
+
+button:focus-within .dropdown {
+opacity: 1;
+visibility: visible;
+}
 
 # nav riba
 
