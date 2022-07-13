@@ -43,32 +43,34 @@ h3 {
 h4 {
   font-size: 2rem;
   // 20px
+  color: #293b5f;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-thirdary {
+  font-family: "Raleway";
+  color: #293b5f;
 }
 
 .heading-primary {
-  font-family: "Raleway";
   font-size: 5.2rem;
   font-style: italic;
   font-weight: 900;
   line-height: 1.05;
-  color: #6a7695;
   letter-spacing: -0.5px;
   margin-bottom: 3.2rem;
 }
 .heading-secondary {
-  font-family: "Raleway";
   font-size: 5.2rem;
   font-weight: 700;
   line-height: 1.2;
-  color: #6a7695;
   letter-spacing: -0.5px;
 }
 .heading-thirdary {
-  font-family: "Raleway";
   font-size: 3.2rem;
   font-weight: 700;
   line-height: 1.2;
-  color: #6a7695;
   letter-spacing: -0.5px;
 }
 
