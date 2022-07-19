@@ -122,3 +122,41 @@ Know more About The Autor
   4 plokk
 
 <!-- ### About The Book -->
+
+Ajutine vigadeparandus
+
+        <div class="address-col">
+          <h2 class="footer-heading">Have a Questions?</h2>
+          <ul>
+            <li class="contacts">
+              <address>
+                <p class="address">
+                <img class="social-icon"
+                src="../src/img/icons/pin.png"
+                class="hero-img"
+                alt="Map pin on green circle"/><span>623 Harrison St., 2nd Floor, San Francisco, CA 94107</span></p>
+              </address>
+            </li>
+            <li class="contacts">
+              <div>
+                <p>
+                <img class="social-icon"
+                src="../src/img/icons/phone-call.png"
+                class="hero-img"
+                alt="Phone handle on green circle"
+                />
+                  <a class="footer-link" href="tel:415-201-6370"><span>415-201-6370</span></a>
+              </div>
+            </li>
+            <li class="contacts">
+              <div>
+                <img class="social-icon"
+                src="../src/img/icons/paper-plane.png"
+                class="hero-img"
+                alt="Plane on green circle"
+                /><a class="footer-link" href="mailto:hello@omnifood.com"
+                ><span>info@yourdomain.com</span></a></p>
+              </div>
+            </li>
+          </ul>
+        </div>
