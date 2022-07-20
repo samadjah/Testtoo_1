@@ -79,3 +79,79 @@
 .sticky .section-hero {
   margin-top: 9.6rem;
 }
+/*MOBILE*/
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none; //for beginning hide
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #293b5f;
+}
+
+.mobil-menu {
+  // color: red;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+/*BELOW 545px (phones)*/
+@media (max-width: 34em) {
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .main-nav {
+    background-color: #148256;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; //et hõivaks kogu ekraani
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+
+    //hide navigation step 1
+    opacity: 0;
+    // step 2 make unaccessible to mouse and keyboard
+    pointer-events: none;
+    // step 3 hide from screen readers
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    //now it is perent element to main-nav
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+}

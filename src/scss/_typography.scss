@@ -106,3 +106,36 @@ h4 {
 .right-text {
   text-align: right;
 }
+
+/*BELOW 1175px (smaller desctops)*/
+
+@media (max-width: 74em) {
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+  .hero-description {
+    font-size: 1.4rem;
+    color: red;
+    padding-top: 1.6rem;
+  }
+  .description-over {
+    font-size: 1.2rem;
+    margin-bottom: 1.4rem;
+  }
+}
+
+/*BELOW 960px (phones)*/
+@media (max-width: 60em) {
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+  .hero-description {
+    font-size: 1.2rem;
+    color: red;
+    padding-top: 1.6rem;
+  }
+  .description-over {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+  }
+}

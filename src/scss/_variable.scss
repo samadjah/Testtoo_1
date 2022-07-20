@@ -37,6 +37,7 @@ html {
   /* font-size: 10px / 16px = 62.5%; Percentage of user's browsers font-size setting */
   font-size: 62.5%;
   scroll-behavior: smooth;
+  overflow-x: hidden; //for hidding slidingin meny
 }
 
 body {
@@ -45,11 +46,13 @@ body {
   font-weight: 400;
   color: #555;
   // background-color: #f5f4fb;
+  overflow-x: hidden; //for hidding slidingin meny
 }
 
 /*Helperclass*/
 .margin-right-sm {
   margin-right: 1.6rem !important;
+  overflow-x: hidden; //for hidding slidingin meny
 }
 
 .container {
@@ -97,4 +100,15 @@ body {
 *:focus {
   outline: none;
   box-shadow: 0 0 0 0.6rem hsla(156, 78%, 41%, 0.25); //border inside trick
+}
+
+/*BELOW 500px (phones)*/
+@media (max-width: 34em) {
+  .container {
+    /* 544px */
+    max-width: 34rem;
+    width: 100%; //max laius ekasutamiseks kasuta protsent sada
+    padding: 3.2rem 3.2rem;
+    margin: 0 auto;
+  }
 }
