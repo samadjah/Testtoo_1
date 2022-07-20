@@ -55,8 +55,13 @@ body {
 .container {
   /* 1140px */
   max-width: 120rem;
+  width: 100%; //max laius ekasutamiseks kasuta protsent sada
   padding: 3.2rem 3.2rem;
   margin: 0 auto;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between; //extra flexi saavutamiseks teis ekonteineri sisse
 }
 
 .grid {
@@ -88,7 +93,8 @@ body {
   margin: 15px auto 30px;
 }
 
-// *:focus {
-//   outline: none;
-//   box-shadow: 0 0 0 0.8rem hsla(156, 78%, 41%, 0.25);
-// }
+/* */
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.6rem hsla(156, 78%, 41%, 0.25); //border inside trick
+}

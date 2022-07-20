@@ -3,6 +3,7 @@
   margin-bottom: 9.6rem;
 }
 
+.capter-nav-link,
 .list-nav-list {
   list-style: none;
   display: grid;
@@ -11,20 +12,26 @@
   gap: 2rem;
 }
 
-.list-nav-link:link,
-.list-nav-link:visited {
-  display: inline-block;
-  text-decoration: none;
-  color: #6a7695;
-  font-weight: 900;
-  font-family: "Raleway";
-  font-size: 1.8rem;
-  transition: all 0.3s;
+.capter-nav-link,
+.list-nav-link {
+  &:link,
+  &:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #6a7695;
+    font-weight: 900;
+    font-family: "Raleway";
+    font-size: 1.8rem;
+    transition: all 0.5s;
+  }
 }
 
 .list-nav-link:hover,
 .list-nav-link:active {
   color: #17b978;
+  &::before {
+    content: "\2014  ";
+  }
 }
 
 .list-nav-link.nav-cta:link,
@@ -49,3 +56,12 @@
 .back-to-list-icon-guide {
   color: #17b978;
 }
+
+// #wrapper {
+//   overflow: hidden;
+// }
+
+// #blueDiv:hover,
+// #blueDiv:visited {
+//   margin-left: 100px;
+// }
